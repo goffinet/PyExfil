@@ -14,6 +14,16 @@ PyExfil was born as a PoC and kind of a playground and grew to be something a bi
 
 Putting it simply, it's meant to be used as a testing tool rather than an actual Red Teaming tool. Although most techniques and methods should be easily ported and compiled to various operating systems, some stable some experimental, the transmission mechanism should be stable on all techniques. Clone it, deploy on a node in your organization and see which systems can catch which techniques.
 
+## Ubuntu 18.04 Installation
+
+```
+apt install python-pip git
+git clone https://www.github.com/ytisf/PyExfil
+cd PyExfil
+pip install --user -r requirements.txt
+python setup.py install
+```
+
 ## Getting Started
 
 ### PIP
