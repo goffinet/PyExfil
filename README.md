@@ -17,7 +17,7 @@ Putting it simply, it's meant to be used as a testing tool rather than an actual
 ## Ubuntu 18.04 Installation
 
 ```
-apt install python-pip git
+apt update && apt -y install python-pip git
 git clone https://github.com/goffinet/PyExfil
 cd PyExfil
 pip install --user -r requirements.txt
