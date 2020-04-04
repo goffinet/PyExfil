@@ -18,7 +18,7 @@ Putting it simply, it's meant to be used as a testing tool rather than an actual
 
 ```
 apt install python-pip git
-git clone https://www.github.com/ytisf/PyExfil
+git clone https://github.com/goffinet/PyExfil
 cd PyExfil
 pip install --user -r requirements.txt
 python setup.py install
